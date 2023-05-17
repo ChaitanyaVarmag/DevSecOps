@@ -1,4 +1,4 @@
-kind: Template
+kind: template.openshift.io/v1
 apiVersion: v1
 metadata:
   annotations:
