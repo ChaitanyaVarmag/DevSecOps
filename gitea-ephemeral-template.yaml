@@ -1,4 +1,4 @@
-kind: Template
+kind: Deployment
 apiVersion: v1
 metadata:
   annotations:
