@@ -1,12 +1,3 @@
-kind: Deployment
-apiVersion: v1
-metadata:
-  annotations:
-    description: The Gitea git server (https://gitea.io/en-US/)
-    tags: instant-app,gitea,datastore
-    iconClass: "icon-github"
-  name: gitea-persistent
-objects:
 - kind: ServiceAccount
   apiVersion: v1
   metadata:
