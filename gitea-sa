@@ -3,5 +3,5 @@ kind: ServiceAccount
   metadata:
     creationTimestamp: null
     labels:
-      app: ${APPLICATION_NAME}
-    name: ${APPLICATION_NAME}
+      app: gitea
+    name: gitea
