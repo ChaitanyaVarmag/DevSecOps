@@ -27,9 +27,9 @@ kind: DeploymentConfig
       spec:
         serviceAccountName: gitea
         containers:
-        - image: "${GITEA_IMAGE}:${GITEA_VERSION}"
+        - image: "quay.io/gpte-devops-automation/gitea:latest"
           imagePullPolicy: Always
-          name: ${APPLICATION_NAME}
+          name: gitea
           ports:
           - containerPort: 3000
             protocol: TCP
