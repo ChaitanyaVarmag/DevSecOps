@@ -1,0 +1,15 @@
+kind: Route
+  apiVersion: v1
+  id: gitea-http
+  metadata:
+    annotations:
+      description: Route for application's http service.
+    labels:
+      app: gitea
+    name: gitea
+  spec:
+    host: opentlc
+    to:
+      name: gitea
+    tls:
+      termination: edge
